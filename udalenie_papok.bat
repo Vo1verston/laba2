@@ -1,3 +1,9 @@
 echo off
-del katunin /S /Q /F
+cd katunin
+cd alexander
+rd viktorovich
+cd ..
+rd alexander
+cd ..
+rd katunin
 pause
